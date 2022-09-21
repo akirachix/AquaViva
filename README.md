@@ -17,10 +17,10 @@ since they are the lead cause of decline and imbalance in the marine ecosystem.
 Requirements
 _____________
 
-Microcontroller (Arduino)
-Float switch
-GSM module
-Wiremesh
+#Microcontroller (Arduino)
+#Float switch
+#GSM module
+#Wiremesh
 
 #Authors [AquaViva]
 
