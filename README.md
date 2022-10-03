@@ -1,5 +1,4 @@
-
-AquaViva
+#AquaViva
 ___________
 At least half of the Earth's Oxygen comes from the ocean( National Ocean Service). About 10 million metric tons of plastic waste, which makes up 80% of all marine pollution, enter the oceans yearly, killing seabirds, fish, and marine mammals. It breaks down into smaller pieces called microplastics that absorb various chemicals floating in the marine environment, including pesticides and toxic metals. Research states that, by 2050, plastic will likely outweigh all fish in the sea.
 
