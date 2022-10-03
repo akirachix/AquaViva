@@ -8,14 +8,19 @@ AquaViva is an IoT-based project that aims to preserve marine life and balance t
 AquaViva
 
 ## Setup/Installation Requirements
-Microcontroller(Arduino)
-Wiremesh  
-Floatswitch  
-Jumperwires 
-Breadboard
-Esp 
-Resisitor 
+
+1 Microcontroller(Arduino)
+2 Wiremesh  
+3 Floatswitch  
+4 Jumperwires 
+5 Breadboard
+6 Esp 
+Resisitor
+ 
+## Technologies Used
+C++
 
 ## Deployed Link
 
 ## License
+This project is licensed under the MIT License. See (LICENSE) for details
