@@ -31,7 +31,7 @@ function Main() {
                     <a href="/">Home</a>
                     <a href="/">About</a>
                     <a href="/">Our team</a>
-                    <a href="/" id='updates' className='updates'>Updates</a>
+                    <a href="https://www.canva.com/design/DAFHBcTO3Fs/-TZhvQHkmObudxPvsmxHuw/edit#" id='updates' className='updates' target="_blank" >Updates</a>
                 </div>
                 {/* <img src= {Darkwater} alt="" /> */}
             </div>
@@ -133,7 +133,9 @@ function Main() {
                         AquaViva project is in progress, AquaViva team started with desk research which gave them the overview of the problemat stake.
                         The next step was primary research which resulted into insights from different experts including reseachers from Kenya Marine and Fisheries Research Institute.
                     </p>
-                    <button className='updates-btn' > More</button>
+                    <div className='updates-a'>
+                    <a href="https://www.canva.com/design/DAFHBcTO3Fs/-TZhvQHkmObudxPvsmxHuw/edit#" id='updates' className='updates'  target="_blank"   >Updates</a>
+                    </div>
 
                 </div>
 
@@ -195,7 +197,7 @@ function Main() {
                         </div>
                         <div className='text' >
                             <textarea id="text-area" name="text-area" rows="4" cols="50">
-                              
+
                             </textarea>                        </div>
 
 

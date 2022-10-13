@@ -195,23 +195,35 @@ button {
     text-align: justify;
 }
 
-.updates-section p {
-    padding: 0rem 3rem 0rem 3rem;
+.updates-section a{
+    /* text-align: center; */
+    margin: 1rem 1rem 1rem 33rem;
+    text-decoration: none;
+
+
 }
 
-.updates-btn {
+.updates-section p {
+    padding: -1rem 3rem 0rem 3rem;
+}
+.updates-a{
+    /* margin: 1rem 5rem 1rem 1rem ; */
+    /* text-align: ; */
+}
+
+/* .updates-btn {
     padding: 0.5rem 3rem 0.5rem 3rem;
     /* margin: 0.5rem 0rem 0rem 0rem; */
-    background-color: #0186A3;
-    border-radius: 2rem;
+    /* background-color: #0186A3; */
+    /* border-radius: 2rem; */
     /* border-color: white; */
-    color: #f5f7f7;
-    font-size: 1rem;
-    font-weight: bolder;
-    cursor: pointer;
+    /* color: #f5f7f7; */
+    /* font-size: 1rem; */
+    /* font-weight: bolder; */
+    /* cursor: pointer; */
     /* margin: auto; */
-    margin-left: 45%;      
-}
+    /* margin-left: 45%;       */
+/* } */ 
 
 .ourteam{
     display: flex;
