@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.container{
+    display:flex;
+    margin: 30px 150px;
+}
+.image-section{
+    width:400px;
+    height: 300px;
+    margin-top: 20px;
+}
+.content{
+    background-color: #0186A3;
+    width: 700px;
+    height: 560px;
+}
+form{
+    margin: 40px 60px;
+
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffff;
+  }
+  input{
+    padding: 12px;
+    width: 80%;
+    background : none;
+    border: 1px solid #ffff; 
+    border-radius: 18px;
+  }
+
+  #button{
+    margin: 18px 140px;
+    font-size: 15px;
+    width: 180px;
+    padding:15px;
+    border-radius: 20px;
+    background-color: #ffff;
+    color: #0186A3;
+    font-size: 15px;
+  }
+ .password a{
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    margin: 30px 150px;
+ }
+.paragraph{
+    float: right;
+    margin-top: -2px;
+}
+.paragraph a{
+    text-decoration: none;
+    color: red;
+}
+img{
+    width: 400px;
+    height: 560px;
+    margin: -20px ;
+}
+.headings{
+    margin-top: -115%;
+    padding-left: 80px;
+}
+.image-logo img{
+    height: 120px;
+    width: 120px;
+    margin-top: -100px;
+    padding-left: 50px;
+
+} 
