@@ -31,7 +31,7 @@ function Main() {
                     <a href="/">Home</a>
                     <a href="/">About</a>
                     <a href="/">Our team</a>
-                    <a href="/" className='updates'>Updates</a>
+                    <a href="/" id='updates' className='updates'>Updates</a>
                 </div>
                 {/* <img src= {Darkwater} alt="" /> */}
             </div>
@@ -61,35 +61,30 @@ function Main() {
                 <div className='statement' >
                     <FaQuestion className='question' />
                     <h3>Problem Statement</h3>
-                    <p>It a long established fact that
-                        a reader ll be distracted by the
-                        readable content it of a page
-                        when looking at its layout.
-                        Ipsum is that it has The poin
+                    <p>
+                        How might we protect the Kenyan Coastal Strip in order to preserve marine life in Kenya?
                     </p>
+                    {/* <button>More</button> */}
+
                 </div>
 
                 <div className='statement' >
                     < FaLightbulb className='question' />
-                    <h3>Problem Statement</h3>
-                    <p>It a long established fact that
-                        a reader ll be distracted by the
-                        readable content it of a page
-                        when looking at its layout.
-                        Ipsum is that it has The poin
+                    <h3>Findings</h3>
+                    <p> According to the reseach, 80% of plastics in the ocean comes from land activities and land in the seas/ocean through rivers.
                     </p>
+                    {/* <button>More</button> */}
 
                 </div>
 
                 <div className='statement'>
                     <FaBrain className='question' />
-                    <h3>Problem Statement</h3>
-                    <p>It a long established fact that
-                        a reader ll be distracted by the
-                        readable content it of a page
-                        when looking at its layout.
-                        Ipsum is that it has The poin
+                    <h3>Our Solution</h3>
+                    <p>Intercepting plastic waste before they reach the ocean and use this plastic to make durable materials would reduce the amount of plastic found in the ocean.
+                        AquaViva is here for this.
                     </p>
+                    {/* <button>More</button> */}
+
                 </div>
             </div>
 
@@ -102,6 +97,7 @@ function Main() {
                         of plastic in the ocean is expected to double
                         in the next 15 years (WWF).
                     </p>
+
                     {/* <img src={Darkwater} alt="Ocean image"/> */}
                 </div>
 
@@ -122,27 +118,20 @@ function Main() {
 
                 <div className='ourproduct-text' >
                     <h3 className='product-title' > Our Product</h3>
-                    <p>80% of the world's ocean plastics
-                        enter the ocean via rivers and coastlines.
-                        (Our World In data). What if we intercept
-                        these plastics before they reach the
-                        ocean?
+                    <p>AquaViva-Intercepter is an IOT based solution used to trap plastic materials in rivers and be collected before they reach the ocean.
                     </p>
-                    <button> More</button>
+                    {/* <button>More</button> */}
                 </div>
                 <div>
                     <img src={BetterFish} alt="" />
                 </div>
             </div>
-
             <div className="updates-section">
                 <div>
                     <h3>Updates</h3>
                     <p>
-                        It a long established fact that a reader ll be distracted by that it has legs content ittt of a
-                        page when looking at its layout. content ittt of a page when looking at its layout. The as of
-                        acthaswill be distracted by the readable content it of using hat it has legs content ittt of a
-                        page when looking at its layout. readable
+                        AquaViva project is in progress, AquaViva team started with desk research which gave them the overview of the problemat stake.
+                        The next step was primary research which resulted into insights from different experts including reseachers from Kenya Marine and Fisheries Research Institute.
                     </p>
                     <button className='updates-btn' > More</button>
 
@@ -160,7 +149,7 @@ function Main() {
                     <div className='zuena'>
                         <div><img src={Zuena} alt="" />
                             <span><FaCircle /></span>
-                            <p>Zuena Macharia</p>
+                            <p>Zuenah Macharia</p>
                         </div>
                     </div>
                     <div className='naima'>
@@ -198,29 +187,43 @@ function Main() {
                 <div className='classform'>
                     <form action="">
 
-                        <input id='name' type="text" name='name' placeholder='Name' />
-                        <input id='email' type="text" name='name' placeholder='Email' />
-                        <textarea id='message' type="text" name='name' placeholder='Message' ></textarea>
+                        <div className='text' >
+                            <input id='name' type="text" name='name' placeholder='Name' />
+                        </div>
+                        <div className='text' >
+                            <input id='email' type="email" name='email' placeholder='Email' />
+                        </div>
+                        <div className='text' >
+                            <textarea id="text-area" name="text-area" rows="4" cols="50">
+                              
+                            </textarea>                        </div>
 
 
 
                     </form>
+
+                    <button className='contact-btn'>Send</button>
+
                 </div>
 
                 <div className='contacticons'>
-                    <div className='icon'>             
-                           <FaLinkedin /> 
-                           @aquaviva
+                    <div className='icon'>
+                        <FaLinkedin />
+                        @aquaviva
                     </div>
-                    <div className='icon' >                
+                    <div className='icon' >
                         <FaInstagram /> Aqua_Viva
                     </div>
-                    <div  >                
+                    <div  >
                         <FaTwitter />
                         @aquaviva
                     </div>
 
                 </div>
+            </div>
+
+            <div className='copyrights'>
+                <p>@AquaViva2022</p>
             </div>
 
         </div>

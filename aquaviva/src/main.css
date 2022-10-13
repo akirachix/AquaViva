@@ -30,6 +30,10 @@
     color: black;
 }
 
+#updates{
+    color: white;
+}
+
 .updates {
     background-color: #0186A3;
     padding: 0.5rem 2.1rem 0.5rem 2.1rem;
@@ -174,6 +178,7 @@ button {
     font-size: 1rem;
     font-weight: bolder;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .updates-section h3 {
@@ -255,28 +260,19 @@ color: #011f26;
     margin: 5rem 1rem 1rem 1rem;
     background-color: black;
     height: 15rem;
-    display: flex;  
+    display: flex; 
 }
 
 form{
-    margin: 2rem 1rem 1rem 3rem;
-}
+    margin: 2rem 1rem 1rem 5rem;
+       /* width: 15rem; */
 
-input{
-    margin: 1rem 4rem 1rem 1rem;   
-}
-
-#name{
-    margin: 1rem 4rem 1rem 1rem;   
-}
-
-#message{
-    margin: 3rem 4rem 1rem 1rem;   
+       
 }
 
 .contacticons{
 color: white;
-margin: 5rem 1rem 5rem 1rem;
+margin: 5rem 1rem 5rem 35rem;
 
 }
 
@@ -284,3 +280,119 @@ margin: 5rem 1rem 5rem 1rem;
     padding: 0.5rem;
 }
 
+.text{
+    margin-top: 1rem;
+
+}
+
+#name{
+      background: transparent;
+      border: none;
+      width: 20rem;
+      outline: none; 
+      border-bottom: 0.2rem solid white;
+}
+#email{
+     background: transparent;
+      border: none;
+      outline: none; 
+      width: 20rem;
+      border-bottom: 0.2rem solid white;
+
+}
+
+/* #message{
+    background: transparent;
+    border: none;
+    outline: none; 
+    width: 20rem;
+    border-bottom: 0.2rem solid white;
+    margin-top: 2rem;
+
+} */
+
+#text-area{
+    width: 20rem;
+}
+
+.contact-btn{
+/* margin: 1rem 1rem 1rem 10rem; */
+background: #0186A3;
+color: white;
+margin: 0rem 1rem 1rem -6rem;
+}
+
+.copyrights p{
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: inline;
+    }
+    
+    a{
+   visibility: hidden;
+    }
+
+    .aqualogo img{
+        width: 10rem;
+        text-align: center;
+    }
+
+    .home{
+        display: inline;
+    }
+   
+    .pre-production{
+        display: inline;
+    }
+
+    .ourteam{
+        display: inline;
+    }
+
+    .waterimages{
+        display: inline;
+
+    }
+
+    .darkimageone{
+        width: 20rem;
+        height: 20rem;
+        margin-left: 2rem;
+    }
+    .darkimage{
+        width: 20rem;
+        height: 20rem;
+        margin-left: 2rem;
+    }
+
+    .ourproduct-text{
+margin-left: 1rem;  
+  }
+
+    .ourproduct{
+        display: inline;
+    }
+
+ 
+
+}
+
+@media only screen and (min-width: 600px) {
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
