@@ -3,7 +3,7 @@ import {useState,setState} from "react";
 import "./login.css";
 import ocean from "./images/ocean.jpg";
 import logo from "./images/logo.png";
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom' 
+import { Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom' 
 
 const Login=()=>{ 
     const [username, setUsername]=useState("");

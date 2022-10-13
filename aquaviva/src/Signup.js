@@ -3,7 +3,7 @@ import react, { useEffect, useState } from "react";
 import "./signup.css";
 import ocean from "./images/ocean.jpg";
 import logo from "./images/logo.png";
-import {Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import {Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom'
  
 const SignUp=()=>{
    const [username, setUsername] = useState("");
