@@ -36,8 +36,11 @@ const Login=()=>{
               <label>username</label>
             </div> 
             <div className="row">
-               <input type="text" placeholder="at least 15 characters" id="username"
-                onChange={(e)=>{setUsername(e.target.value)}} />
+               <input type="text" 
+               placeholder="at least 15 characters" 
+               id="username"
+               value={username}
+               onChange={(e)=>{setUsername(e.target.value)}} />
                
             </div>
 
@@ -46,6 +49,7 @@ const Login=()=>{
             </div>
             <div className="row">
                <input type="password" placeholder="at least 8 characters" id="password"
+               value={password}
                onChange={(e)=>{setPassword(e.target.value)}} />
             </div>
 

@@ -8,14 +8,12 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     /* background-color: rgba(243, 244, 245, 0.43); */
 
 }
 
 .aqualogo img {
     width: 6rem;
-    height: 6rem;
     margin: 0.5rem 0rem 0rem 5rem;
 
 }
@@ -220,10 +218,9 @@ button {
     margin: 0rem 8rem 0rem 8rem ;   
 }
 
-.ourteam > div > div > img{
+.ourteam img{
     /* margin: 0rem 0rem 0rem 0rem; */
     border-radius: 10rem;
-   
 
 }
 

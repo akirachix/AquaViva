@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 import Main from './Main';
-import SignUp from './Signup';
-import Login from './Login';
-import {BrowserRouter as  Router, Route, Switch,Routes} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Team from './Team';
+import Updates from './Updates';
+import About from './About';
+// import SignUp from './Signup';
 
 
 function App() {
   return (
-    // <div className="App">
-    // <Main/>
-    // </div>
-    
     <BrowserRouter>
-    <Routes>
-      <Route>
-        <Route index element={<Main />} />
-        <Route path="login" element={<Login />} />
-        <Route path="signup" element={<SignUp />} />
-      </Route>
-    </Routes>
+      <div className="App">
+        <Navbar />
+        <Main id="home" />
+        <About id="about" />
+        <Team id="team"  />
+        <Updates />
+        <Footer/>
+      </div>
   </BrowserRouter>
   );
 }
