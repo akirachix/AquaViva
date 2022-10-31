@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'api',
     'rest_framework',
     'knox',
+    'documentation',
+    'drf_yasg',
 ]
     
 
