@@ -17,8 +17,8 @@ body{
     width: 700px;
     height: 520px;
 }
-form{
-    margin: 120px 20px;
+.loginform{
+    margin: 100px 60px;
 }
 label {
     padding: 12px 12px 12px 0;

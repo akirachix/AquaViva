@@ -1,0 +1,128 @@
+.ourteam{
+    display: flex;
+    margin: 0rem 8rem 0rem 8rem ;
+    padding-left: 50px;
+}
+.ourteam img{
+   border-radius: 15rem;
+   height: 100%;
+   width: 100%;
+
+}
+
+.naima{
+    margin-top: 4rem;
+}
+.naima span{
+color: #011F26;
+}
+.outeam-h{
+    margin: 10rem 3rem 4rem 1rem;
+} 
+.ourteam-h{
+    color: #0186A3;
+    font-size: 3rem;
+    text-align: center;
+}
+.ourteam p{
+    font-weight: 600;
+}
+/* 
+@media only screen and (max-width: 320px) {
+    .ourteam{
+        display: flex;
+        padding: 30px;
+        margin:15px;
+    }
+  
+    .ourteam-h{
+        color: #0186A3;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: -120%;
+    }
+   
+  
+        }
+  
+        @media only screen and (max-width: 425px){
+            .ourteam{
+               display: flex;
+               margin-left: -8px;
+               padding: 30px;
+            }
+       
+            .ourteam-h{
+                color: #0186A3;
+                font-size: 1rem;
+                text-align: center;
+                 margin-left: -300px;
+            }
+        }
+  
+        @media only screen and (max-width: 600px){
+            .ourteam{
+               display: flex;
+               margin-left: 90%;
+               padding: 32px;
+            
+            }
+       
+            .ourteam-h{
+                color: #0186A3;
+                font-size: 3rem;
+                text-align: center;
+                padding-left: 90%;
+            }
+          
+        }
+  
+   
+        @media only screen and (max-width: 768px){
+            .ourteam{
+               display: flex;
+               margin-left:-15px;
+               padding: 20px;
+               width: 110px;
+            }
+       
+            .ourteam-h{
+                color: #0186A3;
+                font-size: 1rem;
+                text-align: center;
+                 margin-left: -70%;
+            }
+        }
+  
+        @media only screen and (max-width: 1300px){
+            .ourteam{
+               display: flex;
+               margin:20px;
+               padding: 20px;
+               width: 150px;
+            }
+       
+            .ourteam-h{
+                color: #0186A3;
+                font-size: 1rem;
+                text-align: center;
+                 margin-left: -70%;
+            }
+        }
+   
+        @media only screen and (max-width: 990px){
+            .ourteam{
+               display: flex;
+               margin:-5px;
+               padding: 30px;
+               width:120px;
+            }
+       
+            .ourteam-h{
+                color: #0186A3;
+                font-size: 1rem;
+                text-align: center;
+                 margin-left: -70%;
+            }
+        }
+  */

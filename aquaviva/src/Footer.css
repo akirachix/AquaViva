@@ -1,260 +1,3 @@
-.page {
-    overflow-x: hidden;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    /* background-color: rgba(243, 244, 245, 0.43); */
-
-}
-
-.aqualogo img {
-    width: 6rem;
-    margin: 0.5rem 0rem 0rem 5rem;
-
-}
-
-.navitems {
-    margin: 2.5rem 4rem;
-}
-
-.navitems a {
-    margin: 2rem;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.2rem;
-    color: black;
-}
-
-#updates{
-    color: white;
-}
-
-.updates {
-    background-color: #0186A3;
-    padding: 0.5rem 2.1rem 0.5rem 2.1rem;
-    border-radius: 2rem;
-    color: rgb(255, 255, 255);
-}
-
-
-
-.bigfish img {
-    width: 90%;
-    height: 33rem;
-    /* margin-top: 0.5rem; */
-    margin: 0rem 20rem 0rem 2rem;
-}
-
-.home {
-    display: flex;
-    position: relative;
-}
-
-h1 {
-    font-size: 3rem;
-
-}
-
-.aqua-intro {
-    position: absolute;
-    width: 20rem;
-    background-color: #0186A3;
-    padding: 2rem 2rem 5rem 2rem;
-    margin: 4.5rem 0rem 0rem 54rem;
-    color: white;
-}
-
-.bigfish {
-    /* min-width: 80%; */
-}
-
-.statement {
-    margin: 2rem;
-    width: 15em;
-    text-align: justify;
-    margin: 3.5rem 7rem 0rem 2rem;
-    /* text-align-last:justify; */
-}
-
-.question {
-    color: rgb(239, 245, 246);
-    background-color: #0186A3;
-    padding: 1rem;
-    border-radius: 2.2rem;
-}
-
-.pre-production {
-    display: flex;
-}
-
-.waterimages {
-    display: flex;
-    margin: 4rem 4rem 4rem 2rem;
-}
-
-.darkimage {
-    width: 30.81rem;
-    margin: 0rem 0rem 0rem 5rem;
-
-}
-
-.darkimageone img {
-    width: 34rem;
-    margin: 0rem 0rem 0rem 0rem;
-
-}
-
-.darkimageone {
-    background-image: url(./images/darkwater.png);
-    width: 34rem;
-    height: 22rem;
-    color: white;
-    text-align: justify;
-
-}
-
-.darkimage {
-    background-image: url(./images/riverwater.png);
-    width: 34rem;
-    height: 22rem;
-    color: white;
-    text-align: justify;
-
-}
-
-.p-state {
-    margin: 5rem 0rem 0rem 2rem;
-    font-size: 2rem;
-    width: 10rem;
-}
-
-.darkimageone p {
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1rem 1rem 1rem 1rem;
-    text-align: justify;
-
-}
-
-.darkimage p {
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1rem 1rem 1rem 1rem;
-    text-align: justify;
-}
-
-.ourproduct img {
-    width: 28rem;
-    height: 19rem;
-}
-
-.ourproduct {
-    display: flex;
-    margin: 5rem 0rem 0rem 0rem;
-}
-
-.ourproduct-text {
-    width: 25rem;
-    margin: 0rem 12rem 0rem 7rem;
-    text-align: justify;
-}
-
-.product-title {
-    color: #0186A3;
-    font-size: 3rem;
-}
-
-button {
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    margin: 0.5rem 0rem 0rem 0rem;
-    /* background-color: #0186A3; */
-    background-color: transparent;
-    border-radius: 2rem;
-    border-color: #0186A3;
-    color: #0186A3;
-    font-size: 1rem;
-    font-weight: bolder;
-    cursor: pointer;
-    margin-bottom: 2rem;
-}
-
-.updates-section h3 {
-    color: #0186A3;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.updates-section {
-    background-color: rgb(5, 39, 67);
-    color: white;
-    padding: 0.1rem 2rem 2rem 3rem;
-    margin: 5rem 0.2rem 5rem 0.2rem;
-    text-align: justify;
-}
-
-.updates-section p {
-    padding: 0rem 3rem 0rem 3rem;
-}
-
-.updates-btn {
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    /* margin: 0.5rem 0rem 0rem 0rem; */
-    background-color: #0186A3;
-    border-radius: 2rem;
-    /* border-color: white; */
-    color: #f5f7f7;
-    font-size: 1rem;
-    font-weight: bolder;
-    cursor: pointer;
-    /* margin: auto; */
-    margin-left: 45%;      
-}
-
-.ourteam{
-    display: flex;
-    margin: 0rem 8rem 0rem 8rem ;   
-}
-
-.ourteam img{
-    /* margin: 0rem 0rem 0rem 0rem; */
-    border-radius: 10rem;
-
-}
-
-span{
-    /* margin: 3rem 1rem 3rem 1rem;
-    width: 20rem;
-    height: 20rem;
-    /* background-color: #0186A3; */
-    border-radius: 2rem;
-    color: #0186A3; 
-}
-
-.naima{
-    margin-top: 4rem;
-}
-
-.naima span{
-color: #011f26;
-}
-/* .outeam-h{
-    margin: 10rem 3rem 4rem 1rem;
-} */
-
-.ourteam-h{
-    color: #0186A3;
-    /* margin: 1rem 1rem 4rem 1rem; */
-    font-size: 3rem;
-    text-align: center;
-
-}
-
-.ourteam p{
-    font-weight: 600;
-}
 
 .footer{
     margin: 5rem 1rem 1rem 1rem;
@@ -263,136 +6,122 @@ color: #011f26;
     display: flex; 
 }
 
-form{
-    margin: 2rem 1rem 1rem 5rem;
-       /* width: 15rem; */
-
-       
-}
-
 .contacticons{
 color: white;
-margin: 5rem 1rem 5rem 35rem;
+margin: 4rem 1rem 5rem 65rem;
 
 }
-
 .icon{
     padding: 0.5rem;
 }
 
 .text{
     margin-top: 1rem;
-
 }
 
-#name{
-      background: transparent;
-      border: none;
-      width: 20rem;
-      outline: none; 
-      border-bottom: 0.2rem solid white;
-}
-#email{
-     background: transparent;
-      border: none;
-      outline: none; 
-      width: 20rem;
-      border-bottom: 0.2rem solid white;
+@media only screen and (max-width: 990px) {
+ 
+    .footer{
+       max-width: 100%;
+       background-color: black;
+       height: 10rem;
+       display: flex; 
+       overflow: hidden;
+       margin-left: 20px;
+          
+   }
+           
+    .contacticons{
+       color: white;
+       margin-left: 80% ;
+   
+    } 
 
-}
 
-/* #message{
-    background: transparent;
-    border: none;
-    outline: none; 
-    width: 20rem;
-    border-bottom: 0.2rem solid white;
-    margin-top: 2rem;
+@media only screen and (max-width: 320px) {
 
-} */
-
-#text-area{
-    width: 20rem;
-}
-
-.contact-btn{
-/* margin: 1rem 1rem 1rem 10rem; */
-background: #0186A3;
-color: white;
-margin: 0rem 1rem 1rem -6rem;
+   
+.footer{
+  
+    background-color: black;
+    height: 10rem;
+    display: flex; 
+    padding-left: 220%;
 }
 
-.copyrights p{
-    font-weight: 500;
-}
+.contacticons{
+    color: white;
+    margin: 30px 60px;
+        } 
+    }
 
+ @media only screen and (max-width: 425px) {
 
-@media only screen and (max-width: 600px) {
-    .navbar{
-        display: inline;
+   
+     .footer{
+         background-color: black;
+         height: 10rem;
+         display: flex; 
+         width: 100%;
+         padding-left: 220%;
+        }
+        
+        .contacticons{
+            color: white;
+            margin: 30px 60px;
+                } 
+            }
+
+ @media only screen and (max-width: 600px) {
+
+   
+        .footer{
+          background-color: black;
+          height: 20rem;
+          display: flex; 
+          padding-left: 160%;
+        }
+            }
+                
+        .contacticons{
+            color: white;
+        
+                        } 
+                       
+
+  
+  @media only screen and (max-width: 768px) {
+ 
+   
+    .footer{
+        background-color: black;
+        height: 10rem;
+        display: flex; 
+        overflow: hidden;
+       padding-left: 110%;
+       
     }
     
-    a{
-   visibility: hidden;
-    }
+    .contacticons{
+        color: white;
+        margin-left: -500px;
+            } 
+        }    
 
-    .aqualogo img{
-        width: 10rem;
-        text-align: center;
-    }
-
-    .home{
-        display: inline;
-    }
-   
-    .pre-production{
-        display: inline;
-    }
-
-    .ourteam{
-        display: inline;
-    }
-
-    .waterimages{
-        display: inline;
-
-    }
-
-    .darkimageone{
-        width: 20rem;
-        height: 20rem;
-        margin-left: 2rem;
-    }
-    .darkimage{
-        width: 20rem;
-        height: 20rem;
-        margin-left: 2rem;
-    }
-
-    .ourproduct-text{
-margin-left: 1rem;  
-  }
-
-    .ourproduct{
-        display: inline;
-    }
-
+    
+                }          
+ @media only screen and (max-width: 1300px) {
  
-
-}
-
-@media only screen and (min-width: 600px) {
-   
-}
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 992px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-}
+     .footer{
+       max-width: 100%;
+       background-color: black;
+       height: 15rem;
+       display: flex; 
+       overflow: hidden;
+                }
+                    
+     .contacticons{
+        color: white;
+        float: right;
+            } 
+                 }   

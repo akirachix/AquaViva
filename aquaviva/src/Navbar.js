@@ -1,7 +1,9 @@
 import React from 'react'
 import Logo from "./images/AquavivaLogo.png"
-import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink} from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 import './main.css'
+
 
 function Navbar() {
     
@@ -12,10 +14,14 @@ function Navbar() {
             </div>
 
             <div className='navitems'>
-                <Link to="#home" smooth>Home</Link>
-                <Link to="#about" smooth>About</Link>
-                <Link to="#team" smooth>Team</Link>
-                <button className='updates'>Updates</button>
+                <HashLink to="#home" id='home' smooth>Home</HashLink >
+                <HashLink to="#about" id='about' smooth>About</HashLink >
+                <HashLink  to="#team" id='team' smooth>Team</HashLink >
+                
+                {/* <Link to="/login">
+                   Login
+                </Link> */}
+               
             </div>
             {/* <img src= {Darkwater} alt="" /> */}
         </div>

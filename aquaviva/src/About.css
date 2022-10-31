@@ -1,0 +1,101 @@
+
+.pre-production {
+    display: flex;
+    margin-left: 100px;
+}
+
+.waterimages {
+    display: flex;
+    margin: 3rem 4rem 4rem 5rem;
+}
+
+.darkimage {
+    width: 30.81rem;
+    margin: 0rem 0rem 0rem 5rem;
+
+}
+
+.darkimageone img {
+    width: 34rem;
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+.darkimageone {
+    background-image: url(./images/darkwater.png);
+    width: 34rem;
+    height: 22rem;
+    color: white;
+    text-align: justify;
+
+}
+
+.darkimage {
+    background-image: url(./images/riverwater.png);
+    width: 34rem;
+    height: 22rem;
+    color: white;
+    text-align: justify;
+
+}
+
+.p-state {
+    margin: 5rem 0rem 0rem 2rem;
+    font-size: 2rem;
+    width: 10rem;
+}
+
+.darkimageone p {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: justify;
+
+}
+
+.darkimage p {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: justify;
+}
+
+.ourproduct img {
+    width: 28rem;
+    height: 19rem;
+ 
+}
+
+.ourproduct {
+    display: flex;
+    margin: 5rem 0rem 0rem 0rem;
+}
+
+.ourproduct-text {
+    width: 25rem;
+    margin: 0rem 12rem 0rem 7.5rem;
+    text-align: justify;
+}
+
+.product-title {
+    color: #0186A3;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 990px) {
+    .darkimageone img {
+        width: 40rem;
+        margin: 5rem 0rem 0rem 15rem;
+    
+    }
+
+    .ourproduct img {
+        width: 25rem;
+        height: 19rem;
+        margin-left: -10%;
+    }
+
+   .waterimages {
+    display: flex;
+    margin: 3rem 4rem 4rem 10rem;
+}
+}
+   

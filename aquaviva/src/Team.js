@@ -6,6 +6,8 @@ import Anena from "./images/anena.jpeg"
 import Jeruto from "./images/jeruto.jpeg"
 import { FaBrain, FaCircle, FaInstagram, FaLightbulb, FaLinkedin, FaQuestion, FaTwitter } from 'react-icons/fa';
 import './main.css'
+import './Team.css'
+
 
 
 function Team() {
