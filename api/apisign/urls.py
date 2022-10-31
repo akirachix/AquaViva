@@ -45,5 +45,7 @@ url(r'^docs/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redo
 path('admin/', admin.site.urls),
 path('',include('api.urls')),
 path('document/',include('documentation.urls')),
+
+
   
 ]
