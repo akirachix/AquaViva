@@ -7,17 +7,6 @@ import './main.css';
 import Navbar from './Navbar';
 
 
-//     state = {
-//         innerWidth: window.innerWidth
-//     }
-
-//     componentDidMount() {
-//         window.addEventListener("resize", this.resize.bind(this))
-//         this.resize()
-//     }
-// }
-
-
 
 function Main() {
     
@@ -81,100 +70,7 @@ function Main() {
 
             </div>
 
-            {/* <div className='waterimages'>
-                <div className='darkimageone'>
-
-                    <h3 className='p-state' >Protecting the Ocean</h3>
-                    <p>At least 14 million tons of plastic end up
-                        in the ocean every year and The amount
-                        of plastic in the ocean is expected to double
-                        in the next 15 years (WWF).
-                    </p>
-
-                    <img src={Darkwater} alt="Ocean image"/>
-                </div>
-
-                <div className='darkimage' >
-                    <h3 className='p-state' > Intercepting In Rivers</h3>
-                    <p>80% of the world's ocean plastics
-                        enter the ocean via rivers and coastlines.
-                        (Our World In data). What if we intercept
-                        these plastics before they reach the
-                        ocean?
-                    </p>
-                    <img src={Riverwater} alt="River image"/>
-                </div>
-
-            </div> */}
-
-            {/* <div className='ourproduct' >
-
-                <div className='ourproduct-text' >
-                    <h3 className='product-title' > Our Product</h3>
-                    <p>AquaViva-Intercepter is an IOT based solution used to trap plastic materials in rivers and be collected before they reach the ocean.
-                    </p>
-                    <button>More</button>
-                </div>
-                <div>
-                    <img src={BetterFish} alt="" />
-                </div>
-            </div> */}
-            {/* <div className="updates-section">
-                <div>
-                    <h3>Updates</h3>
-                    <p>
-                        AquaViva project is in progress, AquaViva team started with desk research which gave them the overview of the problemat stake.
-                        The next step was primary research which resulted into insights from different experts including reseachers from Kenya Marine and Fisheries Research Institute.
-                    </p>
-                    <button className='updates-btn' > More</button>
-
-                </div>
-
-
-            </div> */}
-
-            {/* <div className='team-content'>
-                <div className='ourteam-h'>
-                    <h2>Our Team</h2>
-                </div>
-
-                <div className='ourteam' >
-                    <div className='zuena'>
-                        <div><img src={Zuena} alt="" />
-                            <span><FaCircle /></span>
-                            <p>Zuenah Macharia</p>
-                        </div>
-                    </div>
-                    <div className='naima'>
-                        <div><img src={Naima} alt="" />
-                            <span><FaCircle /></span>
-                            <p>Naima Yussuf</p>
-
-                        </div>
-                    </div>
-                    <div className='nadine'>
-                        <div><img src={Nadine} alt="" />
-                            <span><FaCircle /></span>
-                            <p>Nadine Sangwa</p>
-
-                        </div>
-                    </div>
-                    <div className='naima'>
-                        <div><img src={Anena} alt="" />
-                            <span><FaCircle /></span>
-                            <p>Anena Beatrice</p>
-
-                        </div>
-                    </div>
-
-                    <div className='jeruto' >
-                        <div><img src={Jeruto} alt="" />
-                            <span><FaCircle /></span>
-                            <p>Phelisia Jeruto</p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+           
 
         </div>
         </section>
