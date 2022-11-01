@@ -7,6 +7,16 @@ import './main.css';
 import Navbar from './Navbar';
 
 
+//     state = {
+//         innerWidth: window.innerWidth
+//     }
+
+//     componentDidMount() {
+//         window.addEventListener("resize", this.resize.bind(this))
+//         this.resize()
+//     }
+// }
+
 
 
 function Main() {
