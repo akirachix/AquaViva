@@ -1,1 +1,3 @@
-web: gunicorn apisign.wsgi --log-file -
+web: gunicorn apisign.wsgi
+wsgi file: web: python3 manage.py runserver 0.0.0.0:
+
