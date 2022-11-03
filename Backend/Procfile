@@ -1,2 +1,1 @@
- web: gunicorn apisign.wsgi:application --log-file -
- web: python manage.py collectstatic --no-input;
+web: python manage.py collectstatic --no-input && gunicorn --pythonpath ghiblimovs apisign.wsgi --log-file -
