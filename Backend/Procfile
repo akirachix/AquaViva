@@ -1,1 +1,1 @@
-web: gunicorn apisign.wsgi--log-file -
+web: python /apisign/manage.py runserver 0.0.0.0:$PORT --noreload
