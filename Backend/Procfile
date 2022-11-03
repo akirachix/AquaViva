@@ -1,1 +1,1 @@
-web: gunicorn apisign.wsgi
+ web: gunicorn apisign.wsgi:application --log-file -
