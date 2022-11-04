@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-som2o#uwo7!$jx1q+k31gu#btqz=_eg17+l!)64=qvk3p(q@pv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://git.heroku.com/inteceptorviva.git',
+ALLOWED_HOSTS = ['https://git.heroku.com/aqua-viva.git',
 'localhost',
 '127.0.0.1']
 
