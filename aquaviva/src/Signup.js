@@ -3,13 +3,24 @@ import { useForm } from "react-hook-form";
 import "./signup.css";
 import ocean from "./images/ocean.jpg";
 import logo from "./images/logo.png";
+import axios from "axios";
 
 
 const SignUp = () => {
+  const { register, handleSubmit,formState: { errors } } = useForm();
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = (e) => {
-    e.preventDefault();
+ 
+  const onSubmit=(e) => {
+  e.preventDefault();
+    const user = {
+      name: this.state.name
+    }
+    axios.post('https://aqua-viva.herokuapp.com/', { user })
+      .then(res=>{
+        console.log(res);
+        console.log(res.data);
+        window.location = "/retrieve" //This line of code will redirect you once the submission is succeed
+      })
   }
 
   return (
@@ -30,6 +41,7 @@ const SignUp = () => {
           <label>Username</label>
           <div className="row">
             <input type="text" placeholder=""  {...register("username", { required: true })}
+              onChange="handleChange"
               aria-invalid={errors.username ? "true" : "false"} />
             {errors.username?.type === 'required' && <p role="alert" className="errormsg">username is required</p>}
           </div>
@@ -43,7 +55,6 @@ _
               }
             })}
               aria-invalid={errors.email ? "true" : "false"} />
-            {/* {errors.email?.type === 'required' && <p role="alert" className="errormsg">Email is required</p>} */}
             {errors.email && <p className="errormsg">{errors.email.message}</p>}
           </div>
 
@@ -58,7 +69,6 @@ _
               }
             })}
               aria-invalid={errors.password ? "true" : "false"} />
-            {/* {errors.password?.type === 'required' && <p role="alert" className="errormsg">Password is required</p>} */}
             {errors.password && <p className="errormsg">{errors.password.message}</p>}
           </div>
 
@@ -68,11 +78,10 @@ _
           <div className="row">
             <input type="password" placeholder="confirmpassword"  {...register("confirmPassword", { required: "ConfirmPassword is required" })}
               aria-invalid={errors.confirmPassword ? "true" : "false"} />
-            {/* {errors.confirmPassword?.type === 'required' && <p role="alert" className="errormsg">confirmPassword is required</p>} */}
             {errors.confirmPassword && <p className="errormsg">{errors.confirmPassword.message}</p>}
           </div>
           <div>
-            <button type="submit" id="button" >SignUp</button>
+            <button type="submit" id="button"> SignUp </button>
             <p className="paragraph">Already have an Account? <a href="/Login">Login </a> </p>
           </div>
         </form>

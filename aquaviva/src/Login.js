@@ -3,13 +3,24 @@ import { useForm } from "react-hook-form";
 import "./login.css";
 import ocean from "./images/ocean.jpg";
 import logo from "./images/logo.png";
+import axios from "axios";
 
 const Login= () => {
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const { register,handleSubmit,formState: { errors } } = useForm();
 
-  const onSubmit = (e) => {
+  const onSubmit=(e) => {
     e.preventDefault();
-  }
+      const user = {
+        name: this.state.name
+      }
+      axios.post('https://aqua-viva.herokuapp.com/api/login', { user })
+        .then(res=>{
+          console.log(res);
+          console.log(res.data);
+          window.location = "/retrieve" //This line of code will redirect you once the submission is succeed
+        })
+    }
+ 
 
   return (
     <div className="container">
@@ -51,7 +62,7 @@ const Login= () => {
 
           <p className="password"> <a href="">Forgot Password? </a> </p>
 
-          <button type="submit" id="button" > Login </button>
+          <button type="submit" id="button"> Login </button>
 
           <p className="paragraph">Do not have an Account? <a href="/Signup">Signup </a> </p>
         </form>

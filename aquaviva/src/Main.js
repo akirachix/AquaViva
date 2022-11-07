@@ -12,7 +12,7 @@ import Navbar from './Navbar';
 function Main() {
     
     return (
-        <section id='about'>
+        <section >
         <div className='page'>
 
             <div className='home' >

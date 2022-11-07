@@ -1,8 +1,8 @@
-import React from 'react'
-import Logo from "./images/AquavivaLogo.png"
-import { HashLink} from 'react-router-hash-link'
-import { Link } from 'react-router-dom'
-import './main.css'
+import React from 'react';
+import Logo from "./images/AquavivaLogo.png";
+import { HashLink} from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
+import './main.css';
 
 
 function Navbar() {
@@ -14,13 +14,13 @@ function Navbar() {
             </div>
 
             <div className='navitems'>
-                <HashLink to="#home" id='home' smooth>Home</HashLink >
-                <HashLink to="#about" id='about' smooth>About</HashLink >
-                <HashLink  to="#team" id='team' smooth>Team</HashLink >
+                <HashLink smooth to="#home" id='home' >Home</HashLink >
+                <HashLink smooth to="#about" id='about' >About</HashLink >
+                <HashLink smooth to="#team" id='team' >Team</HashLink >
                 
                 {/* <Link to="/login">
                    Login
-                </Link> */}
+                   </Link> */}
                
             </div>
             {/* <img src= {Darkwater} alt="" /> */}
@@ -29,4 +29,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
